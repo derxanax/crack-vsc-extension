@@ -1,0 +1,51 @@
+{
+  "Print": {
+    "prefix": "conlog",
+    "body": [
+      "conlog \"$1\""
+    ],
+    "description": "Вывод текста"
+  },
+  "Print Variable": {
+    "prefix": "conlogvar",
+    "body": [
+      "conlog ($1)"
+    ],
+    "description": "Вывод переменной"
+  },
+  "Variable": {
+    "prefix": "var",
+    "body": [
+      "$1 = $2"
+    ],
+    "description": "Создание переменной"
+  },
+  "Code in Variable": {
+    "prefix": "codevar",
+    "body": [
+      "$1 = // $2 //"
+    ],
+    "description": "Код в переменной"
+  },
+  "Execute Code": {
+    "prefix": "codego",
+    "body": [
+      "codego : ($1)"
+    ],
+    "description": "Выполнение кода из переменной"
+  },
+  "Import Module": {
+    "prefix": "imp",
+    "body": [
+      "imp $1"
+    ],
+    "description": "Импорт модуля"
+  },
+  "Math Expression": {
+    "prefix": "math",
+    "body": [
+      "$1 = $2 $3 $4"
+    ],
+    "description": "Математическое выражение"
+  }
+} 
