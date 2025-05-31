@@ -1,0 +1,11 @@
+node_modules/
+out/
+*.log
+.env
+.vscode/
+*.tsbuildinfo
+.DS_Store
+*.swp
+*.swo
+package-lock.json
+*.vsix 
